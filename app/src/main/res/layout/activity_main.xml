@@ -66,6 +66,7 @@
 
         <RadioButton
             android:layout_width="wrap_content"
+            android:enabled="false"
             android:layout_height="wrap_content"
             android:text="공개 안함"/>
 
@@ -80,6 +81,7 @@
     <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:visibility="gone"
         android:text="개인정보 활용 동의" />
 
     <LinearLayout
